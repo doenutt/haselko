@@ -30,8 +30,8 @@ Hasło:<input type="password" name="form2" />
 </form>
 
 <?php
-if(isset($POST['wysyla_na_serwer'])){
-@$a=$POST['form2'];
+if(isset($_POST['wysyla_na_serwer'])){
+@$a=$_POST['form2'];
 @$b='haslo';
 if($a==$b)
 {
